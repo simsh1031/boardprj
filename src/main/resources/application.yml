@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: boardpjt
+  # profile -> dev, prod
+  profiles:
+    active: dev
+  # ???? ??? ???, dev? ???? ???? ??
+
+  # ????
+  datasource: # JPA
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
